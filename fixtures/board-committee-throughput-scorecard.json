@@ -1,0 +1,447 @@
+{
+  "generatedAt": "2026-06-01T12:08:12.452Z",
+  "summary": {
+    "items": 6,
+    "constrainedLanes": 5,
+    "addOrReorderLanes": 4,
+    "averageBoardConfidence": 61.2,
+    "valueAtStakeMillions": 157,
+    "leadingMessage": "Committee throughput is now a shared operating constraint across multiple lanes and needs explicit scheduling intervention."
+  },
+  "items": [
+    {
+      "id": "ai-committee-overflow",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "ADD_SLOT",
+      "throughputTheme": "AI agenda volume is now outgrowing the current risk-committee calendar.",
+      "boardQuestion": "Which AI lane needs more decision slots rather than another review memo?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The AI estate is advancing, but the committee cadence is now the real limiter on safe approvals.",
+      "throughputHeadline": "AI agenda load is outpacing the current committee calendar.",
+      "agendaSignal": "AI packets are rolling into later meetings because the current agenda is already full.",
+      "escalationOwner": "AI governance operations lead",
+      "requiredEvidence": [
+        "agenda overflow log",
+        "slot utilization",
+        "carryover packet count"
+      ],
+      "relatedSurfaces": [
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com",
+        "agents.kineticgain.com"
+      ],
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "committeeMeetingsPerMonth": 2,
+      "decisionSlotsAvailable": 6,
+      "agendaOverflowRate": 38,
+      "committeeLoadScore": 66,
+      "slotCoverageScore": 53,
+      "escalationTurnoverScore": 64,
+      "decisionVelocityScore": 70,
+      "boardConfidenceScore": 72,
+      "valueAtStakeMillions": 34,
+      "headline": "AI committee demand is outgrowing the available decision slots.",
+      "narrative": "The board should add decision capacity before it asks the AI lane to carry more commitments.",
+      "nextMove": "Add an extra AI committee slot before the next release tranche.",
+      "overflowAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Agenda overflow is now materially constraining the next board-safe decision window."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical throughput and distorting decision timing."
+      },
+      "slotAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision-slot coverage is too weak to support the current board queue."
+      },
+      "escalationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Escalation turnover is becoming uneven and needs stronger follow-up ownership."
+      },
+      "velocityAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision velocity is getting patchy and may soon require reprioritization."
+      },
+      "confidenceAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Board confidence is becoming dependent on extra explanation and agenda triage."
+      },
+      "compositeThroughputRiskScore": 40.4
+    },
+    {
+      "id": "identity-agenda-reorder",
+      "lane": "Identity and access governance",
+      "track": "IDENTITY",
+      "action": "REORDER",
+      "throughputTheme": "Identity work is not missing capacity entirely, but agenda order is letting exception cleanup crowd out cleaner decisions.",
+      "boardQuestion": "Which trust lane needs committee reordering because decision slots are being consumed by the wrong packet mix?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity remains necessary, but agenda sequencing is amplifying carryover and slowing the rest of the queue.",
+      "throughputHeadline": "Identity agenda order is consuming slots inefficiently.",
+      "agendaSignal": "Exception-heavy packets keep displacing lower-friction approvals.",
+      "escalationOwner": "Identity governance director",
+      "requiredEvidence": [
+        "agenda mix by meeting",
+        "carryover packet count",
+        "exception share of slots"
+      ],
+      "relatedSurfaces": [
+        "certs.kineticgain.com",
+        "guest.kineticgain.com",
+        "protect.kineticgain.com"
+      ],
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ],
+      "committeeMeetingsPerMonth": 2,
+      "decisionSlotsAvailable": 5,
+      "agendaOverflowRate": 29,
+      "committeeLoadScore": 61,
+      "slotCoverageScore": 58,
+      "escalationTurnoverScore": 56,
+      "decisionVelocityScore": 54,
+      "boardConfidenceScore": 54,
+      "valueAtStakeMillions": 18,
+      "headline": "Identity throughput is being constrained by agenda order more than raw slot count.",
+      "narrative": "The board should reorder the identity agenda before it adds more committee time.",
+      "nextMove": "Reorder identity packets so lower-friction decisions stop waiting behind exception cleanup.",
+      "overflowAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Agenda overflow is rising and will start to push decisions into later meetings."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical throughput and distorting decision timing."
+      },
+      "slotAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision-slot coverage is too weak to support the current board queue."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation turnover is too weak to clear committee carryover safely."
+      },
+      "velocityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision velocity is too weak to sustain clean board-facing sequencing."
+      },
+      "confidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support the current committee pace without intervention."
+      },
+      "compositeThroughputRiskScore": 42.4
+    },
+    {
+      "id": "revenue-committee-escalation",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "ESCALATE",
+      "throughputTheme": "Finance committee carryover is compounding because reporting disputes keep consuming the same meeting window.",
+      "boardQuestion": "Which commercial lane is now constrained because committee throughput is being eroded by recurring explanation loops?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "The reporting estate works, but committee throughput still breaks down when attribution arguments reopen the same packet.",
+      "throughputHeadline": "Finance committee throughput is being consumed by repeated reporting disputes.",
+      "agendaSignal": "Revenue packets keep carrying into the next meeting after explanation loops reopen debate.",
+      "escalationOwner": "Revenue systems lead",
+      "requiredEvidence": [
+        "carryover rate",
+        "debate duration by packet",
+        "decision-slot miss count"
+      ],
+      "relatedSurfaces": [
+        "powerbi.kineticgain.com",
+        "yield.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ],
+      "committeeMeetingsPerMonth": 1,
+      "decisionSlotsAvailable": 4,
+      "agendaOverflowRate": 41,
+      "committeeLoadScore": 72,
+      "slotCoverageScore": 46,
+      "escalationTurnoverScore": 48,
+      "decisionVelocityScore": 49,
+      "boardConfidenceScore": 51,
+      "valueAtStakeMillions": 29,
+      "headline": "Revenue committee throughput is being consumed by repeated explanation loops.",
+      "narrative": "The board should escalate how revenue packets are structured before it assumes another meeting will solve the drag.",
+      "nextMove": "Escalate packet redesign and decision-slot protection for the finance committee.",
+      "overflowAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Agenda overflow is now materially constraining the next board-safe decision window."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical throughput and distorting decision timing."
+      },
+      "slotAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision-slot coverage is too weak to support the current board queue."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation turnover is too weak to clear committee carryover safely."
+      },
+      "velocityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision velocity is too weak to sustain clean board-facing sequencing."
+      },
+      "confidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support the current committee pace without intervention."
+      },
+      "compositeThroughputRiskScore": 51.4
+    },
+    {
+      "id": "fintech-decision-deferral",
+      "lane": "FinTech diligence and transaction controls",
+      "track": "FINTECH",
+      "action": "DEFER",
+      "throughputTheme": "FinTech packets are outrunning committee capacity, and additional agenda adds would dilute already thin decision quality.",
+      "boardQuestion": "Which capital-sensitive lane should defer additional asks until the committee can clear the current queue cleanly?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "The control surfaces are credible, but the committee queue is fuller than the current decision slots can support safely.",
+      "throughputHeadline": "The current FinTech agenda is too full to absorb another adjacent packet safely.",
+      "agendaSignal": "Treasury, KYC, and merchant reviews are waiting behind the same narrow committee window.",
+      "escalationOwner": "Finance transformation lead",
+      "requiredEvidence": [
+        "agenda queue age",
+        "slot overflow by lane",
+        "deferred packet count"
+      ],
+      "relatedSurfaces": [
+        "payments.kineticgain.com",
+        "merchant.kineticgain.com",
+        "treasury.kineticgain.com",
+        "kyc.kineticgain.com"
+      ],
+      "companyTags": [
+        "Stripe",
+        "Adyen",
+        "Plaid"
+      ],
+      "committeeMeetingsPerMonth": 1,
+      "decisionSlotsAvailable": 3,
+      "agendaOverflowRate": 45,
+      "committeeLoadScore": 70,
+      "slotCoverageScore": 42,
+      "escalationTurnoverScore": 44,
+      "decisionVelocityScore": 47,
+      "boardConfidenceScore": 49,
+      "valueAtStakeMillions": 37,
+      "headline": "FinTech committee throughput is below the active agenda demand.",
+      "narrative": "The board should defer adjacent asks until the current committee queue can clear without degrading decision quality.",
+      "nextMove": "Defer new FinTech additions until the current investment-committee queue clears.",
+      "overflowAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Agenda overflow is now materially constraining the next board-safe decision window."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical throughput and distorting decision timing."
+      },
+      "slotAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision-slot coverage is too weak to support the current board queue."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation turnover is too weak to clear committee carryover safely."
+      },
+      "velocityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision velocity is too weak to sustain clean board-facing sequencing."
+      },
+      "confidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support the current committee pace without intervention."
+      },
+      "compositeThroughputRiskScore": 54
+    },
+    {
+      "id": "procurement-slot-strength",
+      "lane": "Procurement, trust, and buyer proof",
+      "track": "PROCUREMENT",
+      "action": "REORDER",
+      "throughputTheme": "Procurement is one of the few committee lanes with enough clean slots to lend sequencing discipline elsewhere.",
+      "boardQuestion": "Which lane can absorb smarter agenda sequencing elsewhere because its own throughput is relatively healthy?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "Procurement and trust work stay healthier because proofs are fresher and the packet mix is less prone to carryover.",
+      "throughputHeadline": "Procurement throughput remains strong enough to support selective agenda reordering elsewhere.",
+      "agendaSignal": "Approval SLAs remain healthy even during late-stage enterprise pushes.",
+      "escalationOwner": "Trust center owner",
+      "requiredEvidence": [
+        "approval SLA",
+        "carryover rate",
+        "slot hit rate"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ],
+      "committeeMeetingsPerMonth": 2,
+      "decisionSlotsAvailable": 8,
+      "agendaOverflowRate": 12,
+      "committeeLoadScore": 34,
+      "slotCoverageScore": 84,
+      "escalationTurnoverScore": 85,
+      "decisionVelocityScore": 82,
+      "boardConfidenceScore": 84,
+      "valueAtStakeMillions": 13,
+      "headline": "Procurement has room to model better committee sequencing for adjacent lanes.",
+      "narrative": "This lane shows what healthier committee throughput looks like and gives leadership one place to copy from.",
+      "nextMove": "Reuse procurement-style agenda discipline in a more constrained board lane.",
+      "overflowAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Agenda overflow remains inside the current committee planning window."
+      },
+      "committeeAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Committee load remains inside the current operating band."
+      },
+      "slotAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Decision-slot coverage is strong enough to support the current agenda."
+      },
+      "escalationAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Escalation turnover is strong enough to keep committee follow-ups moving."
+      },
+      "velocityAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Decision velocity remains strong enough to keep committee actions moving."
+      },
+      "confidenceAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Board confidence remains clear enough to support the current committee cadence."
+      },
+      "compositeThroughputRiskScore": 17.6
+    },
+    {
+      "id": "biotech-extra-meeting",
+      "lane": "Biotech and diagnostics control lanes",
+      "track": "BIOTECH",
+      "action": "ADD_SLOT",
+      "throughputTheme": "Regulated packets are stacking across assay, CAPA, specimen, and safety faster than the compliance committee can clear them.",
+      "boardQuestion": "Which regulated lane needs another meeting slot before the board funds another adjacent control surface?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The biotech stack is real, but the committee cadence is too thin for the number of regulated packets now in flight.",
+      "throughputHeadline": "Compliance committee throughput is now the bottleneck across biotech lanes.",
+      "agendaSignal": "Change, CAPA, and release packets keep carrying over into the next compliance meeting.",
+      "escalationOwner": "GxP program manager",
+      "requiredEvidence": [
+        "carryover rate",
+        "meeting slot utilization",
+        "decision backlog by lane"
+      ],
+      "relatedSurfaces": [
+        "assay.kineticgain.com",
+        "capa.kineticgain.com",
+        "specimen.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "companyTags": [
+        "LabVantage",
+        "Veeva",
+        "Thermo Fisher"
+      ],
+      "committeeMeetingsPerMonth": 1,
+      "decisionSlotsAvailable": 4,
+      "agendaOverflowRate": 43,
+      "committeeLoadScore": 75,
+      "slotCoverageScore": 45,
+      "escalationTurnoverScore": 52,
+      "decisionVelocityScore": 55,
+      "boardConfidenceScore": 57,
+      "valueAtStakeMillions": 26,
+      "headline": "Biotech committee throughput is materially below current regulated agenda demand.",
+      "narrative": "The board should add compliance decision capacity before it approves more regulated-surface growth.",
+      "nextMove": "Add another compliance committee slot before expanding the biotech control-plane family.",
+      "overflowAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Agenda overflow is now materially constraining the next board-safe decision window."
+      },
+      "committeeAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Committee load is now exceeding practical throughput and distorting decision timing."
+      },
+      "slotAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision-slot coverage is too weak to support the current board queue."
+      },
+      "escalationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Escalation turnover is too weak to clear committee carryover safely."
+      },
+      "velocityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision velocity is too weak to sustain clean board-facing sequencing."
+      },
+      "confidenceAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board confidence is too thin to support the current committee pace without intervention."
+      },
+      "compositeThroughputRiskScore": 50.3
+    }
+  ]
+}
