@@ -123,16 +123,50 @@ function shell(title: string, path: string, body: string, description: string) {
   <body>
     <div class="wrap">
       ${body}
+      ${renderSharedDepth()}
       <div class="footer">
         <span>${productTitle}</span>
         <a href="${domain}">${domain.replace("https://", "")}</a>
-        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://github.com/mizcausevic-dev/board-committee-throughput-scorecard">GitHub</a>
+        <a href="https://portfolio.kineticgain.com/">Portfolio</a>
         <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
         <a href="https://kineticgain.com/">Kinetic Gain</a>
       </div>
     </div>
   </body>
 </html>`;
+}
+
+function renderSharedDepth() {
+  return `<section class="section">
+    <h2>Product depth</h2>
+    <div class="grid">
+      <article class="card">
+        <div class="chip">Buyer value</div>
+        <h3>Committee capacity becomes a board decision.</h3>
+        <p>Executives can see which lanes need more meeting capacity, cleaner agendas, faster escalation, or a deliberate deferral before another strategic ask enters the room.</p>
+      </article>
+      <article class="card">
+        <div class="chip">Technical proof</div>
+        <h3>One typed model powers every surface.</h3>
+        <p>The CLI, JSON APIs, prerendered HTML, screenshots, and verification notes all resolve from the same TypeScript evidence model so the story stays reproducible.</p>
+      </article>
+      <article class="card">
+        <div class="chip">GTM story</div>
+        <h3>Throughput risk is easier to buy than calendar noise.</h3>
+        <p>This turns vague meeting overload into a SaaS value architecture narrative: exposed capacity, recoverable operating focus, investment readiness, and board-safe ownership.</p>
+      </article>
+    </div>
+  </section>
+  <section class="section">
+    <h2>What these repos have in common</h2>
+    <div class="grid">
+      <article class="card"><div class="chip">Risk signal</div><p>Each product starts with a board-facing exposure that can be scored, compared, and routed.</p></article>
+      <article class="card"><div class="chip">Owner context</div><p>Every lane names the operating owner, board audience, and intervention path instead of stopping at dashboard metrics.</p></article>
+      <article class="card"><div class="chip">Evidence packet</div><p>The public page, README, CLI, JSON payloads, and screenshots all package the same proof in different buyer-readable forms.</p></article>
+      <article class="card"><div class="chip">Next action</div><p>The output always resolves into an action leaders can defend: add capacity, reorder, escalate, defer, ring-fence, or hold.</p></article>
+    </div>
+  </section>`;
 }
 
 function navLinks(path: string) {
