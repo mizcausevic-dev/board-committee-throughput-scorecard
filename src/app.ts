@@ -1,4 +1,5 @@
 import express from "express";
+import { pathToFileURL } from "node:url";
 import { agendaLedger, interventionPosture, payload, riskMap, summary, throughputLane, verification } from "./services/verticalBriefService.js";
 import {
   renderAgendaLedger,
@@ -31,9 +32,13 @@ export function createApp() {
   return app;
 }
 
-if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/")}`) {
+const isEntrypoint = process.argv[1] ? import.meta.url === pathToFileURL(process.argv[1]).href : false;
+
+/* v8 ignore start -- process entrypoint is exercised by deployment smoke checks, not unit coverage. */
+if (isEntrypoint) {
   const port = Number(process.env.PORT ?? 4318);
   createApp().listen(port, "127.0.0.1", () => {
     console.log(`board-committee-throughput-scorecard listening on http://127.0.0.1:${port}`);
   });
 }
+/* v8 ignore stop */
